@@ -1,0 +1,219 @@
+<!doctype html>
+<html class="scroll-smooth md:scroll-auto bg-white dark:bg-slate-800" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>My profile</title>
+</head>
+<body class="font-Poppins">
+      <!--header-->
+      <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+          <!-- <i class=" text-2xl fa-duotone fa-house"></i> -->
+          <div class="py-1 text-blue-600">
+            <i class=" rounded-md px-7 py-3  text-purple text-2xl fa-solid fa-house"></i>
+            Home
+          </div>
+          <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-blue-600 uppercase text-xs">
+            
+            <li class="cursor-pointer"><a href="#name">Profile </a></li>
+            <li class="cursor-pointer"><a href="#skills">My Skills</a> </li>
+            <li class="cursor-pointer"><a href="#contact">contact me</a> </li>
+
+            <button type="button" class="bg-purple text-white rounded-md px-7 py-3 uppercase"> login</button>
+          </ul>
+          <div class="flex sm:hidden flex-1 justify-end">
+            <i class="fa-solid fa-bars text-2x1"></i>
+          </div>
+        </nav>
+      </header>
+
+    <!--hero-->
+        <section class="relative bg-silver snap-mandatory " id="name">
+          <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-8 lg:mt-28 ">
+            <!--content-->
+            <div class="flex flex-1 flex-col items-center lg:items-start">
+              <h2 class=" text-blue-600 text-3xl md:text-4 lg:text-5xl lg:text-left mb-6 text-center"> Hello..!</h2>
+              <p class=" text-gray-500 text-lg text-center lg:text-left mb-6">My Name is ALhanof.k.a
+                <br> I'm frontend developer and this is My Profile ...  </p>
+              <div class=" flexv justify-center flex-wrap gap-6 ">
+                <button class=" btn btn-purple hover:bg-white hover:text-black" type="button"> <a href="#skills">click hear </a></button>
+                <button class=" btn btn-white hover:bg-purple hover:text-white " type="button"> <a href="https://drive.google.com/file/d/1pBijBbrNU9zr95UvxBzgyv8-TAKEIrPb/view?usp=sharing" >go to my Cv</a></button>
+              </div>
+            </div>
+            <!--image-->
+              <div class=" flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+                
+                <img class=" w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./image/worker.png">
+              </div>
+          </div>
+            <!--rounded -->
+            <div class=" lg:-bottom-28 lg:-right-36 hidden md:block overflow-hidden bg-purple rounded-l-full top-32 right-0 absolute h-80 w-2/4">
+
+            </div>
+        </section>
+    <!--features-->
+      <section class="py-20 mt-20 lg:mt-40 snap-mandatory" id="skills">
+        
+        <!--heading-->
+        <div class=" sm:w-3/4 lg:w-5/12 mx-auto px-2">
+          <h1 class="text-3xl text-center text-purple ">My Skills</h1>
+            <p class=" text-center mt-4 text-gray-400"> Web developer and I have a great passion to learn everything about developing web applications, I can help you build the site you want.
+             <br>
+              Certificate: bachelor
+              <br>
+              Specialization: Information System..
+            </p>
+        </div>
+        <!--featuer 1-->
+        <div class="bg-silver relative mt-20 lg:mt-24"> 
+          <div class=" container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+            <!--image2-->
+            <div class=" flex flex-1 justify-center z-10  mb-10 lg:mb-0">
+              <img class=" w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./image/html-code.png">
+            </div>
+             <!--content -->
+             <div class=" flex flex-1 flex-col items-center lg:items-start">
+              <h1 class="text-3xl text-purple"> My Skills in a Web developer</h1>
+              <p class="text-gray-500 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">HTML..</p>
+              <!-- <button class=" btn btn-purple hover:bg-white hover:text-black" type="button"> jdlkfj</button>   -->
+            
+            </div>
+          </div>
+          <!--rounded -->
+          <div class="-bottom-24 -left-36 hidden lg:block overflow-hidden bg-purple rounded-r-full  absolute h-80 w-2/4">
+          </div>
+        </div>
+        <!--featuer 2-->
+        <div class="relative mt-20 lg:mt-24">
+          <div class=" container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+            <!--image2-->
+            <div class=" flex flex-1 justify-center z-10  mb-10 lg:mb-0">
+              <img class=" w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./image/css-3.png">
+            </div>
+             <!--content -->
+             <div class=" flex flex-1 flex-col items-center lg:items-start">
+              <h1 class="text-3xl text-purple">CSS..</h1>
+              <p class="text-gray-400 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">CSS and the Fremwork Tialwind</p>
+              <button class=" btn btn-purple hover:bg-white hover:text-black" type="button"> <a href="https://tailwindcss.com/docs/installation"> you can see it here</a> </button>  
+            
+            </div>
+          </div>
+          <!--rounded -->
+          <div class="-bottom-24 -right-36 hidden lg:block overflow-hidden bg-purple rounded-l-full  absolute h-80 w-2/4">
+          </div>
+        </div>
+          <!--featuer 3-->
+        <div class=" bg-silver relative mt-20 lg:mt-24">
+          <div class=" container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+            <!--image2-->
+            <div class=" flex flex-1 justify-center z-10  mb-10 lg:mb-0">
+              <img class=" w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./image/javascript.png">
+            </div>
+             <!--content -->
+             <div class=" flex flex-1 flex-col items-center lg:items-start">
+              <h1 class="text-3xl text-purple">javascript</h1>
+              <p class="text-gray-400 my-4 text-center lg:text-left sm:w-3/4 lg:w-full">javascript and the Fremwork angular </p>
+              <button class=" btn btn-purple hover:bg-white hover:text-black" type="button"> <a href="https://angular.io/docs"> you can see it here</a></button>  
+            
+            </div>
+          </div>
+          <!--rounded -->
+          <div class="-bottom-24 -left-36 hidden lg:block overflow-hidden bg-purple rounded-r-full  absolute h-80 w-2/4">
+          </div>
+        </div>
+      
+      </section>
+      <!--contact-->
+      <section class="bg-silver py-20 mt-20 snap-mandatory" id="contact">
+         <!--heading-->
+         <div class=" sm:w-3/4 lg:w-5/12 mx-auto px-2 ">
+          <h1 class="text-3xl text-center font-normal text-purple "> Contact Me</h1>
+            <p class=" text-center mt-4 font-semibold text-gray-400"> You Can Finde Me There</p>
+        </div>
+        <!--Cards -->
+        <div class="relative mt-20 lg:mt-24">
+          <div class=" container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+             <!-- card 1-->
+              <div class="flex flex-col rounded-md drop-shadow-lg ">
+                <div class="p-6 flex flex-col items-center">
+                  <img class=" max-h-24 min-h-min animate-pulse" src="./image/email.png"/>
+                  <h3 class="mt-5 mb-2 text-purple text-lg"> Email</h3>
+                  <p class="mb-2 text-gray-400 font-light"></p>
+                </div>
+                <hr class="border-b border-black"/>
+                <div class="flex p-6">
+                  <button class=" flex-1 btn btn-purple hover:bg-white hover:text-black" type="button">  <a href=" mailto:hnoofk14@gmail.com"> send a massege </a></button> 
+                </div>
+              </div>
+                 <!-- card 3-->
+            <div class="flex flex-col rounded-md shadow-md">
+              <div class="p-6 flex flex-col items-center">
+                <img class=" max-h-24 min-h-min" src="./image/github (1).png"/>
+                <h3 class="mt-5 mb-2 text-purple text-lg"> Github</h3>
+                <p class="mb-2 text-gray-400 font-light"></p>
+              </div>
+              <hr class="border-b border-gray-50"/>
+              <div class="flex p-6">
+                <button class=" flex-1 btn btn-purple hover:bg-white hover:text-black" type="button"> <a href="https://github.com/Akq12">My Profile in Github</a></button> 
+              </div>
+            </div>
+                <!-- card 2-->
+             <div class="flex flex-col rounded-md shadow-md">
+              <div class="p-6 flex flex-col items-center">
+                <img class=" max-h-24 min-h-min" src="./image/twitter (1).png"/>
+                <h3 class="mt-5 mb-2 text-purple text-lg"> Twitter</h3>
+                <p class="mb-2 text-gray-400 font-light"></p>
+              </div>
+              <hr class="border-b border-gray-900"/>
+              <div class="flex p-6">
+                <button class=" flex-1 btn btn-purple hover:bg-white hover:text-black" type="button"> <a href="https://twitter.com/mmq12q?s=11&t=Nyk2_KANAaC0gc5YY_PZXQ"> My Acounte</a></button> 
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <!-- FAQ-->
+      <section class="py-20 snap-mandatory">
+        <div class="container">
+          <!--heading-->
+          <div class=" sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center font-normal text-purple "> Frequently Asked Question</h1>
+              <p class=" text-center mt-4 font-semibold text-gray-400"> You Can Finde Me There</p>
+          </div>
+              <!--FAq items-->
+          <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto ">
+            <div class=" flex items-center border-b py-4 ">
+              <span class="flex-1"> what is  you like  a programming language ?</span>
+                <i class=" text-purple fa-solid fa-chevron-down"></i>
+            </div>
+            <div class=" flex items-center border-b py-4 ">
+              <span class="flex-1"> what is  you like  a programming language ?</span>
+                <i class=" text-purple fa-solid fa-chevron-down"></i>
+            </div>
+            <div class=" flex items-center border-b py-4 ">
+              <span class="flex-1"> what is  you like  a programming language ?</span>
+                <i class=" text-purple fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--footer-->
+      
+      <section class="bg-purple snap-mandatory py-20">
+      <footer>
+        <div class=" container flex flex-col md:flex-row items-center h-1/2 ">
+          <div class="  text-white flex flex-1 flex-wrap items-center justify-center md:justify-start gap-11">
+              <h1 class="text-xl font-semibold"> Created By Alhanof.k.a
+              </h1>
+          </div>
+          <p class="text-sm font-semibold">2022</p>
+        </div>
+      </footer>
+      </section>
+    </body>
+
+</html>
